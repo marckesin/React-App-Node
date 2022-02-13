@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
-import reactLogo from './react-logo.svg';
-import nodeLogo from './nodejs-logo.svg';
-import './App.css';
+import reactLogo from "./react-logo.svg";
+import nodeLogo from "./nodejs-logo.svg";
+import "./App.css";
 
 function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
     fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message))
-      .catch((err) => console.log(err))
+      .then(res => res.json())
+      .then(data => setData(data.message))
+      .catch(err => console.log(err));
   }, []);
 
   return (

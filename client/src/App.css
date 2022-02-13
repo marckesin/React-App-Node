@@ -17,7 +17,7 @@
     animation: React-logo-spin infinite 20s linear;
   }
 
-  .Node-logo{
+  .Node-logo {
     animation: Node-logo-grow infinite 5s linear;
   }
 }

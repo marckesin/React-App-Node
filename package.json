@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./server/index.js",
     "devstart": "nodemon ./server/index.js",
-    "test": "snyk test", 
+    "test": "snyk test",
     "build": "cd client && npm install && npm run build"
   },
   "author": "",
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }, 
+  },
   "engines": {
     "node": "14.x"
   },

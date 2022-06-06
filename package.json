@@ -1,7 +1,7 @@
 {
   "name": "react-node-app",
   "version": "1.0.0",
-  "description": "React app utilizando Node/Express como back-end.",
+  "description": "React app utilizando Node/Express como backend.",
   "main": "index.js",
   "scripts": {
     "start": "node ./server/index.js",
@@ -19,7 +19,7 @@
     "nodemon": "^2.0.12"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "keywords": [
     "react",

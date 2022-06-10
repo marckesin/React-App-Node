@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={reactLogo} className="React-logo" alt="logo" />
-        <img src={nodeLogo} className="Node-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
+        <img src={reactLogo} className="React-logo" alt="React logo" />
+        <img src={nodeLogo} className="Node-logo" alt="NodeJS logo" />
+        <p>{data ? data : "Loading..."}</p>
       </header>
     </div>
   );

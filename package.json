@@ -15,9 +15,6 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  },
   "engines": {
     "node": "16.x"
   },
@@ -25,5 +22,8 @@
     "react",
     "express",
     "node"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
